@@ -447,15 +447,16 @@ th {
   padding: 0;
 }
 
+
+
 body {
     background-color: 
 }
+
 div {
-    border: 1px solid Chocolate;
+    border: 1px solid Chocolate; 
 }
 
-
-*/
 
 
 
@@ -472,216 +473,195 @@ div {
 
 
 /* Navigation Bar Itself */
-.top-navigation {
-    background-color: #fff;
-    position: fixed;   /* <--keeps the bar fixed in place*/
+
+.top-navigation{
+   background-color: #fff;
+    position:fixed;
     width: 100%;      /* <--keeps the bar fixed in place*/
-    z-index: 9999;  /* <--this makes sure the bar stays on top of other elements as its fixed*/
+    z-index: 9999;
+height: 170px;
+
 }
-.top-navigation > .content {
-    width: 970px;
-    height: 70px;
-    margin: 0 auto;
-   
-}
- 
+
+
+
+
+
+
+
 
 
 
  /* Navigation Bar Links */
     .links > li{
     display: inline-block;
+    font-size:28px;
+    font-family: 'Bilbo', cursive;
+
+
 }
 
 .top-navigation .links > .active {
     color: #4c5058;
-    font-weight: 600;
+    font-weight: 800;
+
     transition: all 0.5s ease;
      cursor: pointer;
 }
 
 .top-navigation .links > .active:hover{
     color: #FF00FF;
+    font-size:30px;
+}
+
+.aboutme {
+  transition: all 0.5s ease;
+   cursor: pointer;
+}
+  .aboutme:hover{
+    color: #FF00FF;
+}
+.projects {
+  transition: all 0.5s ease;
+   cursor: pointer;
+}
+.projects:hover{
+    color: #FF00FF;  
+
+}
+
+
+.connect {
+  transition: all 0.5s ease;
+   cursor: pointer;
+}
+.connect:hover{
+    color: #FF00FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Image area*/
+.Solsbar {
+    width: 1000px;
+    height: 375px;
+    margin-top:190px;
+    margin-left: 50px;
+   position:absolute;
+
+}
+
+
+
+
+
+
+
+.Aboutheader-container{
+  width: 560px;
+    height: 100px;
+    margin-left:575px;
+    margin-top: 150px;
+    font-size:50px;
+font-family: 'Bilbo', cursive;
+position:absolute;
+
+
+}
+
+.Abouttext{
+  width: 560px;
+    height: 220px;
+    margin-left:575px;
+    margin-top: 250px;
+    font-size:40px;
+ font-family: 'Bilbo', cursive;
+ position:absolute;
+
+ 
+}
+
+
+
+
+.projectbar{
+ width:100%;
+    height: 80px;
+    margin-left:-10px;
+    margin-right: -8px;
+    margin-top: 535px;
     
+position:absolute;
+
 }
-.How {
-  transition: all 0.5s ease;
-   cursor: pointer;
+
+
+
+
+
+
+
+
+.Karmatext-container{
+
+  width: 550px;
+    height: 25px;
+    margin-left: 375px;
+    margin-top:125px;
+    font-size:35px;
+ font-family: 'Bilbo', cursive;
+
 }
-  .How:hover{
-    color: #FF00FF;
-}
-.Store {
-  transition: all 0.5s ease;
-   cursor: pointer;
-}
-.Store:hover{
-    color: #FF00FF;
-}
-.Blog {
-  transition: all 0.5s ease;
-   cursor: pointer;
-}
-.Blog:hover{
-    color: #FF00FF;
-}
-.Help {
-  transition: all 0.5s ease;
-   cursor: pointer;
-}
-.Help:hover{
-    color: #FF00FF;
-}
-.Login {
-  transition: all 0.5s ease;
-   cursor: pointer; 
-}
-.Login:hover{
-    color: #FF00FF;
+
+
+
+.Karmaclone {
+    width: 550px;
+    height: 375px;
+    margin-top:100px;
+    margin-left: 375px;
+   position:absolute;
+
 }
 
 
 
 
+.NYtimestext-container{
 
+  width: 500px;
+    height: 25px;
+    margin-left: 390px;
+    margin-top:750px;
+    font-size:35px;
+ font-family: 'Bilbo', cursive;
 
-/* Center Image info */
-
-  .Introduction {
-    background-image: url('../images/first-backgroundcopy.jpg');
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 46rem;
-      overflow: auto;
-}
-
-
-/* Introduction code */
-
-.Introduction  .content h1{
-
-  margin-top: 4.5em;
-  margin-bottom: 0;
-  text-align:center;
-  color:white;
-  font-size: 45px;
-  font-family: 'Roboto', sans-serif;   
-letter-spacing: 0.03em;
-}
-  
-
-.Introduction  .content h3{
-
-  margin-top: 1em;
-  text-align:center;
-  color:white;
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif; 
-letter-spacing: 0.03em;
-}
-
-
-
-/* Introduction button code */
-
-
-.Introduction .big-button{
-
-     display:block;
-     margin: 0 auto;
-    width: 180px;
-    text-shadow: none;
-    border-style: none;
-    border-radius: 4px;
-    padding: 16px 26px;
-    line-height: 1.33;
-    background-color: orange;
-    margin-top: 1em;
-    margin-bottom: 1em;
-
-}
-
-.Introduction .big-button:hover{
-    background-color: #FF00FF;
-    transition: all 0.5s ease;
-}
-
-
-
-/*This is the Cases Section code*/
-
-.Everyone h2{
-  margin-top: 2.4em;
-  text-align:center;
-  margin-left: auto;
-  margin-right: auto;
-  color:black;
-  font-size: 45px;
-  font-family: 'Roboto', sans-serif;   
-letter-spacing: 0.03em;
-}
-
-
-.Everyone .content{
-text-align-center;
 }
 
 
 
 
 
-/*Aligning all 3 images*/
-
-.Immages li{
-    display: inline;
-   padding: 75px;
-}
-
-.bar {
-    background-color: #fff;
-}
-.bar > .content {
-    width: 900px;
-    height: 150px;
-    margin: 0 auto;
-   
-}
 
 
 
 
 
-/*Aligning 3 text boxes under 3 immages*/
-/*First text box*/
-
- /* YOU CAN FLOAT THE TEXT THATS WHAT MADE IT WORK!!!!!*/
-
-.Threetext .internet{
-
-  margin-left:110px;
-  font-size: 24px;
-}
 
 
-.Threetext .boost{
-
-  margin-left:105px;
-  font-size: 24px;
-}
-
-.Threetext .pay{
-
-  margin-left:110px;
-  font-size: 24px;
-}
 
 
-.Threetext .container {
-    width: 900px;
-    height: 150px;
-    margin: 0 auto;
-   }
+
+
+
 
 
 
@@ -701,11 +681,6 @@ text-align-center;
     height: 50px;
     margin: 0 auto;
 }
-
-
-
-
-
 
 
 
@@ -791,21 +766,53 @@ text-align-center;
 
 
 
-
-
-
-
-
-
-
+/*
 #wrap { 
-  width: 900px; 
+  width: 1000px; 
   margin: 0 auto; 
 }
-  /* Preserve aspcet ratio 
-  min-width: 100%;
-  min-height: 100%;*/
+  */
 
+
+
+    
+    
+   
+   
+
+
+
+
+.Solsbar {
+   
+    margin-top:190px;
+     margin-left: 70px;
+    width: 1000px;
+    height: 375px;
+    
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+  }
+  .Solsbar:hover {
+    -webkit-transform:  rotate(180deg)scale(-2); 
+    -moz-transform: rotate(180deg)scale(-2);
+    -o-transform:rotate(180deg) scale(-2);
+    -ms-transform:  rotate(180deg)scale(-3);
+    transform:  rotate(180deg)scale(-2);
+  }
+
+
+/*
+.Solsbar:hover {
+    -webkit-transform: translate(3em,0);
+    -moz-transform: translate(3em,0);
+    -o-transform: translate(3em,0);
+    -ms-transform: translate(3em,0);
+    transform: translate(3em,0);
+  }
+*/
 
 
 
