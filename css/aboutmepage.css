@@ -1,0 +1,122 @@
+/*Text CSS*/
+body {
+    
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+ 
+}
+
+.questions-section > h2 {
+    /* Typography Declarations */
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.location-section h1,
+.introduction-section >h1,
+.questions-section > h1 {
+    /* Typography Declarations */
+    font-size: 1.2em;
+    font-weight: bold;
+  font-size: 25pt;
+}
+.footercontent,
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Header CSS*/
+.masthead{
+  padding: 8em 0;
+  border-top: 1.5em solid black;
+  border-radius: 15px;
+  background-image: url('http://i.imgur.com/Iw0XfDX.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead-intro {
+  margin-bottom: -1em;
+  text-align:center;
+  color:white;
+	font-size: 45px;
+}
+
+.masthead-heading {
+  margin-top: .5em;
+  text-align:center;
+  color:gray;
+	font-family:impact;
+	font-size:100px;
+  text-shadow: 2px 2px #ff0000;
+}
+
+
+
+
+
+
+
+
+
+/*Footer CSS*/
+
+
+.footerbar{
+  border: 3em solid black;
+  border-bottom: 100px solid black;
+  margin-top: 2em;
+  border-radius: 15px;
+  background: black;
+  color:white;
+}
+
+  .footercontent{
+     max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*Media links*/
+div .container {
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+   }
+
+ul li{
+  display:inline;
+}
+
+
+
+
+.splash{
+  
+  margin-left:-270px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+  .footer {
+        font-size: 1em;
+    }
+  
+  
+}
+
+
